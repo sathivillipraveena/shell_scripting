@@ -4,7 +4,7 @@ r="/e[31m"
 validate(){
     if [ $1 -ne 0 ] 
     then
-        echo " $r ERROR: $2 is not found "
+        echo " ${r} ERROR: $2 is not found "
         install $2
     fi
 }
