@@ -19,4 +19,5 @@ then
     exit 0
 else 
     validate $status "mysql"
+fi
 
