@@ -15,7 +15,7 @@ dnf list installed mysql
 status=$?
 if [ $status -eq 0 ]
 then
-    echo " mysql is installed"
+    echo " ${g} mysql is installed"
     exit 0
 else 
     validate $status "mysql"
