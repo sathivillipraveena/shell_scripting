@@ -1,6 +1,6 @@
 #!/bin/bash
-g="\e[32m"
-r="\e[31m"
+g=\e[32m
+r=\e[31m
 validate(){
     if [ $1 -ne 0 ] 
     then
