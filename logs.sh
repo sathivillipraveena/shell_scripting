@@ -1,7 +1,7 @@
 g='\e[32m'
 r='\e[31m'
 LOG_FOLDER=/var/log/shell_scripting
-script_name=$(ech0"$0" | cut -d "." -f1)
+script_name=$(echo "$0" | cut -d "." -f1)
 log_file="$LOG_FOLDER/$script_name.log"
 mkdir -p $LOG_FOLDER
 validate(){
