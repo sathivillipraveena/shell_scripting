@@ -12,5 +12,5 @@ done
 #taking from outside while executing the loop
 for mov in $@
 do
-    echo "print each movie name ${mov}"
+    echo "print each movie name ${mov}" # while executing i just gave sh forloop.sh lightsout amtiville theunholy and it just printed out each movie name  
 done
