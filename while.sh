@@ -12,4 +12,4 @@ file="color.sh"
 while IFS= read -r line
 do
     echo "Processing: $line"
-done < "$file"
+done < "$file" # bash searches for file which is color.sh and reads each line in the file 
