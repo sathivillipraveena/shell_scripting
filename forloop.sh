@@ -6,5 +6,11 @@ echo "all the movies:${movies[@]}"
 echo "movie[4]:${movies[4]}"
 for i in "${movies[@]}"
 do 
-    echo "movies in the array are : $i" #o/p just gives the last movie name
+    echo "movies in the array are : $i" #o/p just gives all the elements in the array
+done
+
+#taking from outside while executing the loop
+for mov in $@
+do
+    echo "print each movie name ${mov}"
 done
