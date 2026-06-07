@@ -4,7 +4,7 @@ echo "first movie: ${movies[0]}"
 echo "second movie:${movies[1]}"
 echo "all the movies:${movies[@]}"
 echo "movie[4]:${movies[4]}"
-for i in movies@
+for i in "${movies[@]}"
 do 
     echo "movies in the array are : $i" #o/p just gives the last movie name
 done
