@@ -32,3 +32,4 @@ do
    echo "Deleting file: $filepath" | tee -a $LOG_FILE
     rm -rf $filepath
 done <<< $FILES_TO_DELETE
+# <<< files to delete is just a string it doesnt go in detail like taking each line to line all it does is simply take the file
